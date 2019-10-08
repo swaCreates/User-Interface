@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+	border: 2px solid red;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+  
+nav {
+	padding: 5px 10px;
+	margin-left: 10px;
+	border: 2px solid red;
+	display: inline-block;
+	width: 900px;
+	word-spacing: 50px;
+}
+  
+  
+nav a {
+	text-decoration: none;
+	color: silver;
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
+	border: 2px solid rgb(90, 54, 7);
+}
+  
+div.Logo {
+	border: 2px solid dodgerblue;
+	display: inline-block;
+	/* background-color: red; */
+	/* margin-left: 5px; */
+	/* margin-top: 7px; */
+	position: relative;
+	bottom: 55px;
+	left: 902px;
+
+	
+}
+
+.firstSection {
+  display: inline-block;
+	border: 2px solid purple;
+	padding-left: 10px;
+	position: relative;
+	left: 60px;
+	vertical-align: center;
+	margin-left: 50px;
+}
+	
+.secondSection {
+  display: inline-block;
+	border: 2px solid green;
+	padding-left: 10px;
+	position: relative;
+	left: 60px;
+	vertical-align: center;
+	margin-left: 50px;
+}
+
+div.codesnippet {
+	 position: relative; 
+	right: 5%;
+	/* margin-bottom: 15px; */
+	border: 3px solid red;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 200px;
+}
+
+div.features {
+	/* background-color: orange; */
+	display: inline-block;
+	width: 450px;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+div.about {
+	/* background-color: purple; */
+	display: inline-block;
+	width: 450px;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.middle-img {
+	width: 103%;
+}
+
+div.middleImg {
+	border: 2px solid red;
+	vertical-align: center;
+	padding-left: 50px;
+	margin-left: 90px;
+	display: inline-block;
+}
+
+div.services {
+/* background-color: green; */
+display: inline-block;
+width: 265px;
+margin: 10px;
+border: 2px solid black;
+padding: 10px;
+}
+  
+div.product {
+/* background-color: yellow; */
+display: inline-block;
+width: 265px;
+margin: 10px;
+border: 2px solid black;
+padding: 10px;
+}
+  
+.vision {
+/* background-color: brown; */
+display: inline-block;
+width: 265px;
+margin: 10px;
+border: 2px solid black;
+padding: 10px;
+}
+
+/* .vision h2 p {
+	width: 2000px;
+} */
+
+header {
+	/* background-color: green; */
+	width: 400px;
+	margin: 20px;
+	position: relative;
+	top: 20px;
+	display: inline-block;
+}
+  
+.headDiv {
+	/* border: 3px solid blue; */
+	display: inline-block;
+	/* width: 100%; */
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: bold;
+	border: 1px solid darksalmon;
+  /*   margin-top: 70px;
+	margin-left: 50px; */
+     width: 400px;
+	/* height: 150px; */
+	/* padding: 5px; */
+	text-align: center;
+	display: inline-block;
+	/* background-color: red; */
+	/* position: relative; */
+	/* bottom: 20px; */
+	vertical-align: 100px;
+	word-spacing: 1em;
+}
+
+footer p {
+	text-align: center;
+	padding-bottom: 40px;
+	margin-top: 2px;
+	width: 100%;
+	border: 1px solid purple;
+}
+
+button {
+	padding: 10px;
+	width: 125px;
+	margin-bottom: 20px;
+}
+
+.starterImage {
+	border: 2px solid blueviolet;
+	display: inline-block;
+	position: relative;
+	left: 5%;
+}
+
+.p2 {
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border: 1px solid goldenrod;
+}
